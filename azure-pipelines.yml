@@ -19,14 +19,11 @@ pool:
 #       npm run build
 #     displayName: 'npm install and build'
 
-stages:
-  - stage: build
-    displayName: Build
-    jobs:
-    - job: initialize_job
-      displayName: Initialize job
-      steps:
-        - bash: echo "Initialize job"
-    - job: Checkout
-      steps:
-        - bash: echo "Checkout"
+jobs:
+  - job: Build
+    steps:
+      - bash: echo "Initialize job"
+      - bash: echo "Checkout"
+  - job: DeployWeb
+    steps:
+      - bash: echo "Checkout"
