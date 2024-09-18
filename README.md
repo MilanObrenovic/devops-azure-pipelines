@@ -10,6 +10,8 @@ products:
 - vs-code
 ---
 
+[![Build Status](https://dev.azure.com/milanobrenovic/foobar/_apis/build/status%2FMilanObrenovic.devops-azure-pipelines?branchName=main)](https://dev.azure.com/milanobrenovic/foobar/_build/latest?definitionId=1&branchName=main)
+
 # JavaScript end-to-end client file upload to Azure Storage Blobs
 
 This is a basic Express.js server used for JS Dev Experience documentation, in place of the previously used express generator. 
