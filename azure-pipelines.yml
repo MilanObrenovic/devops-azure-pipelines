@@ -24,6 +24,10 @@ jobs:
     steps:
       - bash: echo "Initialize job"
       - bash: echo "Checkout"
+      - bash: echo "CmdLine"
+      - bash: echo "Component detection"
+      - bash: echo "Postjob checkout"
+      - bash: echo "Finalize job"
   - job: DeployWeb
     steps:
       - bash: echo "Checkout"
